@@ -1,0 +1,21 @@
+# --- LangChain Ecosystem (2026 Stable) ---
+langchain>=1.2.6
+langchain-community>=0.4.1
+langchain-core>=1.2.7
+
+# --- LLM & Embedding Integrations ---
+langchain-ollama>=1.0.1          # Optimized for Gemma 3 and local models
+sentence-transformers>=3.0.1     # For high-quality local embeddings
+langchain-huggingface>=0.1.0
+
+# --- Vector Database ---
+faiss-cpu>=1.13.2                # Latest version with 2026 serialization fixes
+
+# --- Document Processing ---
+pypdf>=6.6.0                     # Major 2026 update for PDF extraction
+beautifulsoup4>=4.12.3           # For web/HTML parsing
+chardet>=5.2.0                   # For character encoding detection
+
+# --- Web Interface & Deployment ---
+gradio>=4.0.0                    # Modern AI-first UI (Swapped from Streamlit)
+python-dotenv>=1.0.1             # Environment variable management
