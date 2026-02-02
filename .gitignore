@@ -5,7 +5,8 @@ __pycache__/
 
 .env
 .streamlit/secrets.toml
-
+.gradio/
+.vscode/
 # C extensions
 *.so
 
